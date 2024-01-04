@@ -58,3 +58,13 @@ footer {
     background: #333;
     color: white;
 }
+
+.profile-image {
+    width: 100px; /* or the size you want */
+    height: auto; /* to maintain aspect ratio */
+    border-radius: 50%; /* if you want it round */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px; /* adjust as needed */
+  }
