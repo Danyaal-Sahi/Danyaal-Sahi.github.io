@@ -61,11 +61,11 @@ footer {
 }
 
 .profile-image {
-    width: 100px; /* or the size you want */
-    height: auto; /* to maintain aspect ratio */
-    border-radius: 50%; /* if you want it round */
+    width: 50px; /* Adjust to make the image smaller */
+    height: 50px; /* Adjust to make the image smaller */
+    border-radius: 50%; /* Makes the image round */
     position: absolute;
-    top: 0;
-    right: 0;
-    margin: 10px; /* adjust as needed */
-  }
+    top: 10px; /* Space from the top of the header */
+    right: 10px; /* Space from the right of the header */
+    z-index: 10; /* Ensure it is above other elements */
+}
