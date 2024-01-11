@@ -9,39 +9,66 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
         <nav>
+            <div class="logo">Danyaal Sahi</div>
+            <div>
+
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <img src="me_pic.jpg" alt="Danyaal" class="profile-image">
+                    <!--<img src="me_pic.jpg" alt="Danyaal" class="profile-image"><!-->
     </header>
     <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, my name is Danyaal Sahi and I am a third years Queen's student studying computer science.</p>
+        <div class="about-content">
+
+            <a href="https://github.com/Danyaal-Sahi" target="_blank" class="social-link">
+                <img src="github.png" alt="GitHub" class="logo-img">
+            </a>
+            <!-- LinkedIn Image/Button -->
+            <a href="https://www.linkedin.com/in/danyaal-sahi/" target="_blank" class="social-link">
+                <img src="linkedin.png" alt="LinkedIn" class="logo-img">
+            </a>
+            <h2>Hi, My names Danyaal Sahi and i'm a third year Queen's computing student!</h2>
+
+            <img src="me_pic.jpg" alt="Danyaal Sahi" class="about-img">
+            <div class="buttons-container">
+                <a href="path_to_your_cv.pdf" class="button" id="download-cv">Download CV</a>
+                <a href="#contact" class="button" id="contact-info">Contact Info</a>
+            </div>
+        </div>
+        
     </section>
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Automated Reddit Bot</h3>
-            <p>Creation of a reddit bot that automatically creates a post whenever Queen's Mens basketball team wins a game.</p>
+        <div class="project-container">
+            <div class="project-line"></div>
+            <div class="project-content">
+                <h3>Automated Reddit Bot</h3>
+                <p>Creation of a reddit bot that automatically creates a post whenever Queen's Men's basketball team wins a game.</p>
+                <img src="reddit.png" alt="linked" class="project-img">
+
+            </div>
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of the second project.</p>
-            <img src="me_pic.jpg" alt="Project 2 image" class="project-img">
-            
-        </div>
+        <div class="project-container">
+            <div class="project-line"></div>
+            <div class="project-content">
+                <h3>Java Wordle Clone</h3>
+                <p>Progam replicating wordle with all functionalities</p>
+                <img src="wordle_replica.png" alt="linked" class="project-img">
+
+            </div>
         </div>
 
-        <div class="project">
-            <h3>Project 3</h3>
-            <p>Description of the third project.</p>
-            <!-- Add an image for Project 3 if you have one -->
-            <img src="project3_image.jpg" alt="Project 3 image" class="project-img">
+        <div class="project-container">
+            <div class="project-line"></div>
+            <div class="project-content">
+                <h3>Subway Surfer Clone</h3>
+                <p>Worked in a group to create a subway surfer style game written in C++ and Unreal engine, with tracking via confluence and jira</p>
+                <img src="github.png" alt="linked" class="project-img">
+
+            </div>
         </div>
     </section>
     <section id="contact">
